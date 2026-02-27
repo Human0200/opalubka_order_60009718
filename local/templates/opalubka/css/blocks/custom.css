@@ -1,0 +1,119 @@
+.reviews-container {
+    margin: 50px 0 20px 0;
+    width: 100%;
+}
+.wrapper1 .reviews-container .votes_block.nstar {
+    position: relative !important;
+    top: 3px !important;
+    right: auto;
+    left: 0;
+    min-width: 100%;
+}
+
+.maps-container {
+    padding: 0;
+    width: 100%;
+}
+
+.maps-container .maxwidth-theme {
+    padding: 0 15px;
+}
+
+.objects-container .maxwidth-theme.only-on-front {
+    padding-top: 0 !important;
+}
+
+.main-catalog-wrapper .owl-stage-outer {
+    margin-left: 11px;
+}
+
+.main-catalog-wrapper.details .owl-stage-outer {
+    margin-left: 0;
+}
+
+.show-all-btn-container .btn.btn-transparent-border-color {
+    background-color: var(--theme-base-color);
+    border-color: var(--theme-base-color);
+    color: #fff;
+}
+
+@media(min-width: 601px){
+    .show-all-btn-container {
+        margin-top: 30px;
+    }
+}
+
+.promo.catalog-detail-promo {
+    padding-top: 40px;
+}
+
+.content.detail-text-wrap.detail-text {
+    float: left;
+    margin-top: 40px;
+}
+
+.content.detail-text-wrap.preview-text h2,
+.content.detail-text-wrap.detail-text h2 {
+    display: inline;
+    font-size: inherit;
+    color: inherit;
+}
+
+.catalog-contacts-data .left_block_store,
+.catalog-contacts-data .right_block_store {
+    width: 50%;
+}
+
+.catalog-contacts-data .left_block_store.contacts_map {
+    min-height: 40px;
+    max-height: 400px;
+}
+
+.catalog-contacts-data .wrapper_inner_half.shop-detail1 .bx-yandex-view-map, .wrapper_inner_half.shop-detail1 .contacts_map .bx-yandex-view-map, .wrapper_inner_half.shop-detail1 .contacts_map .item.map-full {
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.catalog-contacts-data .right_block_store {
+    padding-left: 30px;
+    min-height: auto;
+}
+
+.catalog-contacts-data.shop-detail1 .social-block>.wrap:before {
+    display: none;
+}
+
+.wrapper_inner_half.shop-detail1.catalog-contacts-data {
+    border: none;
+}
+
+.catalog-contacts-data .contact-list .contact-list_item {
+    list-style-type: disc;
+}
+
+.catalog-contacts-data .contact-list .contact-list_item:before {
+    display: none;
+}
+
+@media (max-width: 916px) {
+    .catalog-contacts-data {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .catalog-contacts-data .left_block_store,
+    .catalog-contacts-data .right_block_store {
+        width: 100%;
+    }
+    
+    .catalog-contacts-data .left_block_store {
+        margin: 0;
+    }
+    
+    .catalog-contacts-data .right_block_store {
+        margin-top: 40px;
+        padding-left: 0;
+    }
+}
+
+
